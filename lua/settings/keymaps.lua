@@ -52,7 +52,9 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 
 -- No EX MODE in Neovim!
--- It would quit without writing: in Neovim, fails if file is changed
+-- "Q" would quit without writing: in Neovim, fails if file is changed
 vim.keymap.set("n", "Q", "nop")
--- "The worst place in the Vim Universe" is no longer in the destination list! 
--- I have imported my keymaps before now, it was not pretty.
+-- "The worst place in the Vim Universe" is no longer a destination! 
+-- I have imported my keymaps to Vi before now, it was not pretty.
+
+
