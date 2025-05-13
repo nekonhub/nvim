@@ -14,8 +14,8 @@
 
 -- COLORSCHEME
 vim.opt.termguicolors = true
+-- colorscheme now set in each indivudual plugin
 -- vim.cmd [[colorscheme nord]]
--- colorscheme now set with plugin "priority = 1000"
 
 -- TABS AND SPACES
 vim.opt.tabstop = 4 			-- 4 spaces to a TAB
@@ -47,6 +47,10 @@ vim.opt.guicursor = ""
 
 -- WINBAR - top right file name and modify status, useful for splits
 vim.cmd [[set winbar=%=%m\ %f]]
+-- [TODO] Wrong background colour!
+-- Couple of options...
+-- 1. install shaunsingh/nord.nvim - distinctly bluer, but nice
+-- 2. use Treesitter to work out how to fix colorscheme
 
 -- LINE NUMBERS
 vim.opt.number = true
