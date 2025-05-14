@@ -32,7 +32,7 @@ vim.keymap.set("n", "<C-h>", "<C-w><C-h>")
 
 -- SEARCH 
 -- Turn search highlights off
-vim.keymap.set("n", "<leader>no", "<cmd>noh<cr>")
+vim.keymap.set("n", "<leader>ho", "<cmd>noh<cr>")
 -- When replacing highlighted word, DON'T overwrite the paste buffer!
 vim.keymap.set("x", "<leader>p", "\"_dP")
 -- Similar for deleting (to the void register)
@@ -48,7 +48,8 @@ vim.keymap.set("n", "n", "Nzzzv")
 vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
-
+-- Paste from the system clipboard...
+-- set clipboard=unnamedplus in OPTIONS.LUA
 
 
 -- No EX MODE in Neovim!

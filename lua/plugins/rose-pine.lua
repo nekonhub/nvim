@@ -12,13 +12,13 @@ return {
 
             enable = {
                 terminal = true,
-                legacy_highlights = true, -- Improve compatibility for previous versions of Neovim
+                legacy_highlights = true, -- Improve compatibility old versions of Neovim
                 migrations = true, -- Handle deprecated options automatically
             },
 
             styles = {
                 bold = true,
-                italic = true,
+                italic = false,
                 transparency = false,
             },
 
@@ -51,6 +51,7 @@ return {
                 h4 = "gold",
                 h5 = "pine",
                 h6 = "foam",
+
             },
 
             palette = {
@@ -65,6 +66,8 @@ return {
             -- per group via `inherit = false`
             highlight_groups = {
                 -- Comment = { fg = "foam" },
+                -- Italics "false" & "true" for just Comments => better visuals
+                Comment = { italic = true },
                 -- StatusLine = { fg = "love", bg = "love", blend = 15 },
                 -- VertSplit = { fg = "muted", bg = "muted" },
                 -- Visual = { fg = "base", bg = "text", inherit = false },

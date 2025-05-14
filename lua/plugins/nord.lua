@@ -16,7 +16,7 @@ return {
         vim.g.nord_underline = 0
 
         -- set the colorscheme to Nord.
-        vim.cmd([[colorscheme nord]])
+        -- vim.cmd([[colorscheme nord]])
     end
     }
 

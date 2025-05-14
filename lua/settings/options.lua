@@ -14,7 +14,7 @@
 
 -- COLORSCHEME
 vim.opt.termguicolors = true
--- colorscheme now set in each indivudual plugin
+-- colorscheme now set in each "color" plugin
 -- vim.cmd [[colorscheme nord]]
 
 -- TABS AND SPACES
@@ -47,9 +47,10 @@ vim.opt.guicursor = ""
 
 -- WINBAR - top right file name and modify status, useful for splits
 vim.cmd [[set winbar=%=%m\ %f]]
--- [TODO] Wrong background colour!
+-- [TODO] Wrong WinBar background colour in Nord!
 -- Couple of options...
--- 1. install shaunsingh/nord.nvim - distinctly bluer, but nice
+-- 1. [x] install shaunsingh/nord.nvim - distinctly bluer, but nice
+    -- same problem, maybe TS or LSP solves it?
 -- 2. use Treesitter to work out how to fix colorscheme
 
 -- LINE NUMBERS
@@ -68,9 +69,24 @@ vim.opt.showmatch = true
 -- SEARCH SETTINGS
 vim.opt.hlsearch = true         -- highlight search string
 vim.opt.incsearch = true        -- highlight as you are typing
--- SEARCH HIGHLIGHTS OFF with <leader>n-o
+--                              -- SEARCH HIGHLIGHTS OFF with <leader>h-o
 vim.opt.ignorecase = true       -- ignore case of typing and search target
 vim.opt.smartcase = true        -- if search contains upper case override ignorecase
+
+-- YANK (Y and YY) HIGHLIGHT
+-- Momentary highlight when yanking (copying) text
+-- Try it with `yap` in normal mode
+-- See `:help vim.highlight.on_yank()`
+vim.api.nvim_create_autocmd("TextYankPost", {
+  desc = "Highlight when yanking (copying) text",
+  group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
+  callback = function()
+    vim.highlight.on_yank()
+  end,
+})
+
+-- PASTE SYSTEM CLIPBOARD with "p" or "P" 
+vim.opt.clipboard = "unnamedplus"
 
 -- FOLDING
 -- [TODO] I don't use folding, check native options
