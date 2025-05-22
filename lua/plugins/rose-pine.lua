@@ -83,12 +83,15 @@ return {
                 -- if highlight.fg == palette.pine then
                 --     highlight.fg = palette.foam
                 -- end
-        end,
+            end,
         })
+
         vim.cmd("colorscheme rose-pine")
         -- vim.cmd("colorscheme rose-pine-main")
         -- vim.cmd("colorscheme rose-pine-moon")
         -- vim.cmd("colorscheme rose-pine-dawn")
-end
+    end
 }
+
+
 

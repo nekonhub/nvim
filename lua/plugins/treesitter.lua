@@ -26,7 +26,9 @@ return {
                     "gitignore",
                     "bash",
                 },
-                -- Install parsers synchronously (only applied to `ensure_installed`)
+
+                -- Install parsers synchronously
+                -- (only applied to `ensure_installed`)
                 -- sync_install = false,
 
                 -- Automatically install missing parsers when entering buffer
@@ -53,7 +55,7 @@ return {
                         end
                     end,
 
-                additional_vim_regex_highlighting = false,
+                    additional_vim_regex_highlighting = false,
                 },
             }
         end,

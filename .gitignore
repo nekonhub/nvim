@@ -26,3 +26,7 @@
 *.sql
 *.sqlite
 
+# Project Specific #
+####################
+.Test_Files/
+

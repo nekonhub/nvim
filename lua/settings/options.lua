@@ -1,5 +1,6 @@
--- NEOVIM HAS SANE DEFAULT OPTIONS - for reference...
+-- NEOVIM HAS SANE DEFAULT OPTIONS
 
+-- for reference...
 -- encoding = UTF-8
 -- compatible = false
 -- syntax = true
@@ -46,7 +47,7 @@ vim.opt.cursorcolumn = true
 vim.opt.guicursor = ""
 
 -- WINBAR - top right file name and modify status, useful for splits
-vim.cmd [[set winbar=%=%m\ %f]]
+-- vim.cmd [[set winbar=%=%m\ %f]]
 -- [TODO] Wrong WinBar background colour in Nord!
 -- Couple of options...
 -- 1. [x] install shaunsingh/nord.nvim - distinctly bluer, but nice
@@ -61,7 +62,7 @@ vim.opt.relativenumber = true
 vim.opt.signcolumn = "yes"
 
 -- SCROLLING
-vim.opt.scrolloff = 6
+vim.opt.scrolloff = 8
 
 -- PARENTHESIS
 vim.opt.showmatch = true
@@ -90,6 +91,7 @@ vim.opt.clipboard = "unnamedplus"
 
 -- FOLDING
 -- [TODO] I don't use folding, check native options
+-- vim.opt.foldmethod = "indent"
 
 -- BACKUP/SWAPFILE/UNDO HISTORY
 vim.opt.swapfile = false    -- swapfiles make you very angry very quickly
