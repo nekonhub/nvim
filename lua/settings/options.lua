@@ -15,8 +15,7 @@
 
 -- COLORSCHEME
 vim.opt.termguicolors = true
--- colorscheme now set in each "color" plugin
--- vim.cmd [[colorscheme nord]]
+-- colorscheme set in INIT.LUA
 
 -- TABS AND SPACES
 vim.opt.tabstop = 4 			-- 4 spaces to a TAB

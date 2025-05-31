@@ -18,3 +18,6 @@ require("settings.options")
 -- Require the Lazy.lua file to load plugins
 require(".lazy")
 
+-- Set colorscheme
+vim.cmd "colorscheme substrata"
+

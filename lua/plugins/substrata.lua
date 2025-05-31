@@ -1,8 +1,10 @@
 -- Settings for kvrohit/SUBSTRATA.NVIM
+-- Seriously underated theme, subtle and effective
+-- Cemments disappear unless you go looking for them,
+-- code is easily visible and well highlighted.
 
 return {
     "kvrohit/substrata.nvim",
-    -- priority = 1000,    -- loads Substrata before other colorschemes
     lazy = false,
     config = function ()
         -- load the colorscheme here
