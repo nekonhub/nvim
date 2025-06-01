@@ -6,7 +6,7 @@ vim.g.mapleader = " "
 
 -- ESCAPE KEY
 -- On the home row
-vim.keymap.set({"i", "v"}, "jj", "<Esc>")
+vim.keymap.set({ "i", "v" }, "jj", "<Esc>")
 
 -- CLEVER/IMPROVED MOVEMENTS
 -- In Visual Mode, be able to move a line or group of lines up or down
@@ -30,7 +30,7 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>")
 vim.keymap.set("n", "<C-l>", "<C-w><C-l>")
 vim.keymap.set("n", "<C-h>", "<C-w><C-h>")
 
--- SEARCH 
+-- SEARCH
 -- Turn search highlights off
 vim.keymap.set("n", "<leader>ho", "<cmd>noh<cr>")
 -- When replacing highlighted word, DON'T overwrite the paste buffer!
@@ -55,7 +55,5 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 -- No EX MODE in Neovim!
 -- "Q" would quit without writing: in Neovim, fails if file is changed
 vim.keymap.set("n", "Q", "nop")
--- "The worst place in the Vim Universe" is no longer a destination! 
+-- "The worst place in the Vim Universe" is no longer a destination!
 -- I have imported my keymaps to Vi before now, it was not pretty.
-
-

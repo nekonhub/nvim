@@ -1,7 +1,7 @@
 -- Telescope for finding files
 
 -- [TODO} changes to fix swap to Treesitter "main" branch
--- Curnetly no highlightiing in Telescope preview window
+-- Currently no highlightiing in Telescope preview window
 
 return {
     "nvim-telescope/telescope.nvim",
@@ -39,5 +39,6 @@ return {
         keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Find string in cwd" })
         keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Find string under cursor in cwd" })
         keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", { desc = "Find help grepping topics" })
+        -- [TODO] Add a filetype picker based on TJ's MultiGrep picker
     end
 }

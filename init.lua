@@ -20,4 +20,3 @@ require(".lazy")
 
 -- Set colorscheme
 vim.cmd "colorscheme substrata"
-
