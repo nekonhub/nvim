@@ -20,7 +20,7 @@ return {
             keymaps = {
                 ["<CR>"] = "actions.select",
                 ["<C-v>"] = { "actions.select", opts = { vertical = true } },
-                ["<C-h>"] = { "actions.select", opts = { horizontal = true } },
+                ["<C-x>"] = { "actions.select", opts = { horizontal = true } },
                 ["<C-p>"] = "actions.preview",
                 ["<C-c>"] = { "actions.close", mode = "n" },
                 ["<C-r>"] = "actions.refresh",
@@ -30,11 +30,10 @@ return {
                 -- [TODO} keymaps here
             },
             view_options = { show_hidden = true },
-            -- [TODO] Add floating pane
-            -- [TODO] Add colours and additional info to filetypes
         })
     end,
     -- Commands to start Oil
-    vim.keymap.set("n", "<leader>f", "<cmd>Oil --float<CR>", { desc = "Open Oil parent float" }),
     vim.keymap.set("n", "<leader>o", "<cmd>Oil<CR>", { desc = "Open Oil parent in vsplit" }),
+    vim.keymap.set("n", "<leader>fo", "<cmd>Oil --float<CR>", { desc = "Open parent in Oil float" }),
+    vim.keymap.set("n", "<leader>vo", "<cmd>vsplit<CR><cmd>Oil<CR>", { desc = " Open Vsplit parent in Oil" }),
 }

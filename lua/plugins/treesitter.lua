@@ -9,13 +9,14 @@ return {
         build = ":TSUpdate",
         branch = "main",
         config = function()
-            require'nvim-treesitter'.setup {
-                -- A list of parser names, 
+            require 'nvim-treesitter'.setup {
+                -- A list of parser names,
                 -- or "all" (the listed parsers MUST always be installed)
-                require'nvim-treesitter'.install {
+                require 'nvim-treesitter'.install {
                     "lua",
                     "markdown",
                     "markdown_inline",
+                    "latex",
                     "vim",
                     "vimdoc",
                     "html",
@@ -53,7 +54,7 @@ return {
 
                     -- Disable highlighting for large files, typically 1000 lines +
                     disable = function(lang, buf)
-                        local max_filesize = 10 * 1024  -- 10 KB +
+                        local max_filesize = 10 * 1024 -- 10 KB +
                         local ok, stats = pcall(vim.loop.fs_stat, vim.api.nvim_buf_get_name(buf))
                         if ok and stats and stats.size > max_filesize then
                             return true
@@ -78,9 +79,9 @@ return {
                         node_decremental = "<Backspace>",
                     }
 
-                -- Folding - currently not enabled
-                -- [TODO]
-                -- Probably would fit best with my view on Folding
+                    -- Folding - currently not enabled
+                    -- [TODO]
+                    -- Probably would fit best with my view on Folding
 
                 }
             }
