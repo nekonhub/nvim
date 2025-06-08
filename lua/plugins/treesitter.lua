@@ -80,8 +80,9 @@ return {
                     }
 
                     -- Folding - currently not enabled
-                    -- [TODO]
-                    -- Probably would fit best with my view on Folding
+                    -- [TODO] Find a Folding method that works
+                    -- SYMFONY
+                    -- [TODO] Try INTELEPHENSE
 
                 }
             }
