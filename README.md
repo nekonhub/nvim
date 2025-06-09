@@ -9,7 +9,7 @@ require(".lazy")
 
 The dot before ".lazy" gives neat, logical structure without the eponymous folder.
 
-Props to [TJ](https://github.com/tjdevries), [Prime](https://github.com/ThePrimeagen), [MrJakob](https://github.com/jakobwesthoff )and others for ideas, keymaps and promoting a simpler setup.
+Props to [TJ](https://github.com/tjdevries), [Prime](https://github.com/ThePrimeagen), [MrJakob](https://github.com/jakobwesthoff ) and others for ideas, keymaps and promoting a simpler setup.
 New config focused on function over form, native over plugin.
 
 Comments sufficient to avoid "why?" or "WTAF" in a year's time.

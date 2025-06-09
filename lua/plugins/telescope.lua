@@ -5,7 +5,8 @@
 
 return {
     "nvim-telescope/telescope.nvim",
-    tag = '0.1.8',
+    -- tag = '0.1.8',
+    branch = 'master',
     dependencies = {
         "nvim-lua/plenary.nvim",
         { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
@@ -32,7 +33,6 @@ return {
 
         -- set keymaps
         local keymap = vim.keymap -- for conciseness
-
         keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Fuzzy find files in cwd" })
         keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>", { desc = "Fuzzy find open buffers" })
         keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<cr>", { desc = "Fuzzy find recent files" })
