@@ -20,7 +20,7 @@ Comments sufficient to avoid "why?" or "WTAF" in a year's time.
 I used to use Neorg but switched to markdown, I was fed up with breaking changes and weird behaviours. I don't use preview or render-markdown (which caused me link issues) and glow just hurt my eyes. But Markview is really nice, subtle even, especially in my preferred Substrata colorscheme. One of these days I will get round to converting Substrata to Lua.
 
 ```
-![Markdown Cheatsheet](assets/Markview.png "Markview in Substrata colorscheme")
+!([assets/Markview.png](https://github.com/nekonhub/nvim/blob/main/assets/Markview.png) "Markview in Substrata colorscheme")
 ```
 
 [great markdown cheatsheet]: https://github.com/im-luka/markdown-cheatsheet
