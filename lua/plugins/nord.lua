@@ -3,7 +3,7 @@
 
 -- [TODO] Fix WINBAR colors in Nord
 -- [TODO] Compare the two Nord options
-
+-- Switch to the other Nord, this one has too much italic/bold
 
 
 return {

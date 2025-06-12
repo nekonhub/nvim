@@ -1,12 +1,12 @@
 -- Telescope for finding files
 
--- [TODO} changes to fix swap to Treesitter "main" branch
--- Currently no highlightiing in Telescope preview window
+-- [DONE] Currently no highlightiing in Telescope preview window
+-- Basic "insert mode" highlighting of markdown
 
 return {
     "nvim-telescope/telescope.nvim",
     -- tag = '0.1.8',
-    branch = 'master',
+    branch = 'master', -- 'master' branch fixes switch to treesitter 'main'
     dependencies = {
         "nvim-lua/plenary.nvim",
         { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
