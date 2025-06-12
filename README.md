@@ -17,10 +17,12 @@ New config focused on function over form, native over plugin.
 
 Comments sufficient to avoid "why?" or "WTAF" in a year's time.
 
-I used to use Neorg but switched to markdown, I was fed up with breaking changes and weird behaviours. I don't use preview or render-markdown (which caused me link issues) and glow just hurt my eyes. But Markview is really nice, subtle even, especially in my preferred Substrata colorscheme. One of these days I will get round to converting Substrata to Lua.
+I used to use Neorg for notes, ideas and todos, but switched to markdown, I prefer the more *standards based* format and hence portability. I don't use preview or render-markdown (which caused me link issues). Markview is well thought out and looks great, subtle even, especially in my preferred Substrata colorscheme. My Markview config is minimal, some would say spartan. Markview works out of the box, why complicate things?
+
+One of these days I will get round to converting Substrata to Lua.
 
 ![Markview in Substrata colorscheme](assets/Markview.png)
 
 
-[great markdown cheatsheet](https://github.com/im-luka/markdown-cheatsheet)
+I use this [great markdown cheatsheet](https://github.com/im-luka/markdown-cheatsheet) for testing Markdown, it covers everything.
 
