@@ -1,6 +1,6 @@
 -- Settings for kvrohit/SUBSTRATA.NVIM
 -- Seriously underated theme, subtle and effective
--- Cemments disappear unless you go looking for them,
+-- Comments disappear unless you go looking for them,
 -- code is easily visible and well highlighted.
 
 return {
