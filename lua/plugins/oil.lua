@@ -6,7 +6,7 @@ return {
     ---@type oil.SetupOpts
     -- Optional dependencies
     dependencies = { { "echasnovski/mini.icons", opts = {} } },
-    -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if you prefer nvim-web-devicons
+    -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- another option
     -- Lazy loading is not recommended
     lazy = false,
     config = function()
@@ -26,7 +26,6 @@ return {
                 ["-"] = { "actions.parent", mode = "n" },
                 ["_"] = { "actions.open_cwd", mode = "n" },
                 ["g."] = { "actions.toggle_hidden", mode = "n" }
-                -- [TODO} keymaps here
             },
             view_options = { show_hidden = true },
         })

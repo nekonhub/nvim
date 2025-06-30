@@ -53,7 +53,7 @@ return {
                     -- list of language that will be disabled
                     -- disable = { "c", "rust" },
 
-                    -- Disable highlighting for large files, typically 1000 lines +
+                    -- Disable highlighting for large files, typically 5000 lines +
                     disable = function(lang, buf)
                         local max_filesize = 10 * 1024 -- 10 KB +
                         local ok, stats = pcall(vim.loop.fs_stat, vim.api.nvim_buf_get_name(buf))
@@ -81,7 +81,7 @@ return {
                     }
 
                     -- Folding - currently not enabled
-                    -- [TODO] Find a Folding method that works
+                    -- [TODO] Find a Folding method that works for me
                     -- SYMFONY
                     -- [TODO] Try INTELEPHENSE
 

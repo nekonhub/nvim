@@ -1,12 +1,11 @@
 -- Telescope for finding files
-
--- [DONE] Currently no highlightiing in Telescope preview window
--- Basic "insert mode" highlighting of markdown
+-- Keeping it default and minimal
 
 return {
     "nvim-telescope/telescope.nvim",
     -- tag = '0.1.8',
     branch = 'master', -- 'master' branch fixes switch to treesitter 'main'
+    -- [TODO] at some point need to go back to Main Branch
     dependencies = {
         "nvim-lua/plenary.nvim",
         { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
