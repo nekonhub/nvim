@@ -4,6 +4,5 @@
 
 return {
     "whatyouhide/vim-gotham",
-    lazy = false,
+    lazy = true,
 }
-

@@ -3,7 +3,7 @@
 
 return {
     "norcalli/nvim-colorizer.lua",
-    lazy = true,
+    lazy = true
     config = function()
         require 'colorizer'.setup {
             -- '*',     -- to "colorize" all files
