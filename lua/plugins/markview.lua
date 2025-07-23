@@ -1,5 +1,5 @@
 -- MARKVIEW.LUA
--- -Markdown rendering in markdown files
+-- Markdown rendering in markdown files
 
 return {
     "OXY2DEV/markview.nvim",

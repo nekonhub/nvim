@@ -19,4 +19,4 @@ require("settings.options")
 require(".lazy")
 
 -- Set colorscheme
-vim.cmd "colorscheme substrata"
+vim.cmd "colorscheme nord"

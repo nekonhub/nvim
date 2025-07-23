@@ -42,7 +42,7 @@ return {
                 { "mason-org/mason.nvim", opts = {} },
                 "neovim/nvim-lspconfig",
             },
-        }
+        },
 
     }, -- END of dependencies
 

@@ -53,15 +53,10 @@ return {
                     -- list of language that will be disabled
                     -- disable = { "c", "rust" },
 
-                    -- Disable highlighting for large files, typically 5000 lines +
-                    disable = function(lang, buf)
-                        local max_filesize = 10 * 1024 -- 10 KB +
-                        local ok, stats = pcall(vim.loop.fs_stat, vim.api.nvim_buf_get_name(buf))
-                        if ok and stats and stats.size > max_filesize then
-                            return true
-                        end
-                    end,
+                    -- Disable highlighting for large files, typically 10,000 lines +
+                    -- I am not getting a problem so removed TJ's script
 
+                    -- Regex highlights
                     additional_vim_regex_highlighting = false,
                 },
 
