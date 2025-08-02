@@ -33,5 +33,6 @@ return {
     -- Commands to start Oil
     vim.keymap.set("n", "<leader>o", "<cmd>Oil<CR>", { desc = "Open Oil parent in vsplit" }),
     vim.keymap.set("n", "<leader>fo", "<cmd>Oil --float<CR>", { desc = "Open parent in Oil float" }),
+    -- TODO make "<leader>vo" Open a narrow vsplit (40 characters width)
     vim.keymap.set("n", "<leader>vo", "<cmd>vsplit<CR><cmd>Oil<CR>", { desc = " Open Vsplit parent in Oil" }),
 }

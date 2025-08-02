@@ -50,13 +50,15 @@ return {
                 highlight = {
                     enable = true,
 
-                    -- list of language that will be disabled
+                    -- list of language that could be disabled
                     -- disable = { "c", "rust" },
 
-                    -- Disable highlighting for large files, typically 10,000 lines +
-                    -- I am not getting a problem so removed TJ's script
+                    -- Can explicitly disable highlighting on large files
+                    -- JSON, XML, .txt, etc.
+                    -- TJ and Reddit solutions cause warnings ???
 
                     -- Regex highlights
+                    -- Possibly enable for PHP/Symfony/Sulu?
                     additional_vim_regex_highlighting = false,
                 },
 
@@ -65,7 +67,7 @@ return {
                     enable = true
                 },
 
-                -- Incremental Selection withing the tree
+                -- Incremental Selection within the tree
                 incremental_selection = {
                     enable = true,
                     keymaps = {
@@ -74,11 +76,6 @@ return {
                         scope_incremental = false,
                         node_decremental = "<Backspace>",
                     }
-
-                    -- Folding - currently not enabled
-                    -- [TODO] Find a Folding method that works for me
-                    -- SYMFONY
-                    -- [TODO] Try INTELEPHENSE
 
                 }
             }
