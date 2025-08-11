@@ -17,13 +17,14 @@ New config focused on function over form, native over plugin.
 
 Comments sufficient to avoid "why?" or "WTAF" in a year's time.
 
-I used to use Neorg for notes, ideas and TODOs, but switched to markdown, I prefer the more *standards based* format and hence portability. I don't use preview or render-markdown (which caused me link issues). Markview is well thought out and looks great, subtle even, especially in my preferred Substrata colorscheme. My Markview config is minimal, some would say spartan. Markview works out of the box, why complicate things?
+I used to use Neorg for notes, ideas and TODOs, but switched to markdown, I prefer the more *standards based* format and hence portability. I don't use preview or render-markdown (which caused me link issues). Markview is well thought out and looks great. I keep things very minimal although I do intend to automate some actions like "create a new day file" or "list todo's that have a date".
 
+I have recently switched to the [Kanso colorscheme](https://github.com/webhooked/kanso.nvim). In the Mist variant, it gives me really nice Markdown colours and keeps things subtle for coding. Whilst some people see signals in colours when coding, it disturbs my view of the code; is there a kind of dyslexia for colors? There is probably a half decent PhD paper in "Coder Colour Perceptions".
 
-![Markview in Substrata colorscheme](assets/Markview.png)
+![Markview in Kanso-Mist colorscheme](assets/MarkdownInKanso-Mist.png)
 
+Kanso also works well in the Ink variant at night and whilst I rarely use light colorschemes, Saturated Mode in Pearl variant is a decent option.
 
 I use this [great markdown cheatsheet](https://github.com/im-luka/markdown-cheatsheet) for testing Markdown, it covers everything.
 
-[Substrata](https://github.com/kvrohit/substrata.nvim) is well worth a look if you like Gotham but can't see the comment lines! Good support for popular plugins.
 
