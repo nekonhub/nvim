@@ -51,6 +51,9 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 -- Paste from the system clipboard...
 -- set clipboard=unnamedplus in OPTIONS.LUA
 
+-- THE # File for quick movement between files
+vim.keymap.set("n", "<leader>#", "<cmd>e #<CR>")
+
 
 -- No EX MODE in Neovim!
 -- "Q" would quit without writing: in Neovim, fails if file is changed

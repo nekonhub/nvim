@@ -1,4 +1,5 @@
--- NEOVIM HAS SANE DEFAULT OPTIONS
+-- NEOVIM OPTIONS,
+-- but thankfully, Neovim has sane default options.
 
 -- for reference...
 -- encoding = UTF-8
@@ -15,7 +16,7 @@
 
 -- COLORSCHEME
 vim.opt.termguicolors = true
--- Set colorscheme in IINIT.LUA
+-- Set colorscheme in INIT.LUA
 
 -- TABS AND SPACES
 vim.opt.tabstop = 4      -- 4 spaces to a TAB
@@ -32,7 +33,7 @@ vim.opt.smartindent = true -- matches indents for C language
 
 -- BLANK CHARACTERS
 -- default "tab:> ,trail:-,nbsp:+" ?
--- lukas-reineke/indent-blankline.nvim just "works" for me
+-- lukas-reineke/indent-blankline.nvim "just works" for me
 
 -- LINE WRAPPING
 vim.opt.wrap = true        -- default, see keymaps to move within wrapped line
@@ -42,16 +43,11 @@ vim.opt.colorcolumn = "80" -- try to stay within 80 chars
 -- CURSORLINE and CURSORCOLUMN - be able to spot the cursor quickly
 vim.opt.cursorline = true
 vim.opt.cursorcolumn = true
--- Get a Fat Cursor, because its what I always knew
+-- Get a BIG FAT CURSOR, because its what I always knew
 vim.opt.guicursor = ""
 
 -- WINBAR - top right file name and modify status, useful for splits
--- vim.cmd [[set winbar=%=%m\ %f]]
--- [TODO] Wrong WinBar background colour in Nord!
--- Couple of options...
--- 1. [x] install shaunsingh/nord.nvim - distinctly bluer, but nice
--- same problem, maybe TS or LSP solves it?
--- 2. use Treesitter to work out how to fix colorscheme
+vim.cmd [[set winbar=%=%m\ %f]]
 
 -- LINE NUMBERS
 vim.opt.number = true
@@ -90,6 +86,7 @@ vim.opt.clipboard = "unnamedplus"
 
 -- FOLDING
 -- [TODO] I don't use folding, check native options
+-- There must be a reason why other people use folding \o/
 -- vim.opt.foldmethod = "indent"
 
 -- BACKUP/SWAPFILE/UNDO HISTORY

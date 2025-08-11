@@ -19,7 +19,7 @@ return {
             },
         },
 
-        -- Install and enable Language Servers using...
+        -- Install and enable Language Servers really easily using...
         -- MASON and MASON_LSPCONFIG
         {
             "mason-org/mason.nvim",
@@ -42,7 +42,7 @@ return {
                 { "mason-org/mason.nvim", opts = {} },
                 "neovim/nvim-lspconfig",
             },
-        },
+        }
 
     }, -- END of dependencies
 

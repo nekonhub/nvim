@@ -23,7 +23,7 @@ return {
 
 -- NORD colorscheme
 
---     "nordtheme/vim",
+--     require "nordtheme/vim",
 --     priority = 1000, -- load Nord colorscheme first
 --     lazy = false,
 --     config = function()

@@ -1,5 +1,7 @@
 -- KANSO.LUA - an nvim colorschaeme based on Kanagawa
--- Dark and subtle, yert has all Kanagawa advantages without color bling
+-- Dark and subtle, has Kanagawa advantages without color bling.
+-- I think most people see signals in code colours,
+-- but I just see distraction, it dazzles me.
 
 return {
     "webhooked/kanso.nvim",
@@ -11,8 +13,8 @@ return {
             compile = false,  -- enable compiling the colorscheme
             undercurl = true, -- enable undercurls
             commentStyle = { italic = true },
-            functionStyle = { bold = true },
-            keywordStyle = { italic = true, bold = true },
+            functionStyle = { italic = true, bold = true },
+            keywordStyle = { italic = true, },
             statementStyle = {},
             typeStyle = {},
             transparent = false,   -- do not set background color
@@ -26,7 +28,7 @@ return {
                 return {}
             end,
             background = {          -- map the value of 'background' option to a theme
-                dark = "ink",       -- try "zen", "mist" or "pearl" !
+                dark = "mist",      -- try "zen", "mist" or "pearl" !
                 light = "ink"       -- try "zen", "mist" or "pearl" !
             },
             foreground = "default", -- "default" or "saturated" (can also be a table like background)
