@@ -13,8 +13,8 @@ return {
             compile = false,  -- enable compiling the colorscheme
             undercurl = true, -- enable undercurls
             commentStyle = { italic = true },
-            functionStyle = { italic = true, bold = true },
-            keywordStyle = { italic = true, },
+            functionStyle = { italic = false, bold = true },
+            keywordStyle = { italic = true, bold = true },
             statementStyle = {},
             typeStyle = {},
             transparent = false,   -- do not set background color
@@ -22,16 +22,20 @@ return {
             terminalColors = true, -- define vim.g.terminal_color_{0,17}
             colors = {             -- add/modify theme and palette colors
                 palette = {},
-                theme = { zen = {}, pearl = {}, ink = {}, all = {} },
+                theme = { zen = {}, pearl = {}, ink = {}, mist = {}, all = {} },
             },
             overrides = function(colors) -- add/modify highlights
-                return {}
+                return {
+                    -- I prefer Comments to merge into background
+                    Comment = { fg = colors.palette.gray5 },
+                }
             end,
             background = {          -- map the value of 'background' option to a theme
                 dark = "mist",      -- try "zen", "mist" or "pearl" !
                 light = "ink"       -- try "zen", "mist" or "pearl" !
             },
-            foreground = "default", -- "default" or "saturated" (can also be a table like background)
+            foreground = "default", -- "default" or "saturated"
+            --(can be a table like background)
         })
     end
 

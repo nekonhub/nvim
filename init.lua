@@ -19,4 +19,4 @@ require("settings.options")
 require(".lazy")
 
 -- Set colorscheme
-vim.cmd "colorscheme kanso-mist"
+vim.cmd("colorscheme kanso-mist")
