@@ -51,7 +51,7 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 -- Paste from the system clipboard...
 -- set clipboard=unnamedplus in OPTIONS.LUA
 
--- THE # File for quick movement between files
+-- THE ALTERNATE FILE (#) for quick movement to the previous file
 vim.keymap.set("n", "<leader>#", "<cmd>e #<CR>")
 
 
@@ -59,4 +59,3 @@ vim.keymap.set("n", "<leader>#", "<cmd>e #<CR>")
 -- "Q" would quit without writing: in Neovim, fails if file is changed
 vim.keymap.set("n", "Q", "nop")
 -- "The worst place in the Vim Universe" is no longer a destination!
--- I have imported my keymaps to Vi before now, it was not pretty.

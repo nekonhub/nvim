@@ -23,7 +23,7 @@ I have recently switched to the [Kanso colorscheme](https://github.com/webhooked
 
 ![Markview in Kanso-Mist colorscheme](assets/MarkdownInKanso-Mist.png)
 
-Kanso also works well in the Ink variant at night, and whilst I rarely use light colorschemes, Saturated Mode in the Pearl variant is a decent option.
+Kanso also works well in the Ink variant at night, and whilst I rarely use light colorschemes, Saturated Mode in the Pearl variant is a good option.
 
 I use this [great markdown cheatsheet](https://github.com/im-luka/markdown-cheatsheet) for testing Markdown, it covers everything.
 
