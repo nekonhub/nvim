@@ -5,7 +5,7 @@
 
 return {
     "kvrohit/substrata.nvim",
-    lazy = false,
+    lazy = true,
     config = function()
         -- load the colorscheme here
         -- vim.cmd([[colorscheme substrata]])

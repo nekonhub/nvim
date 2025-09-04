@@ -17,7 +17,7 @@ return {
             keywordStyle = { italic = true, bold = true },
             statementStyle = {},
             typeStyle = {},
-            transparent = true,    -- do not set background color
+            transparent = false,   -- do not set background color
             dimInactive = false,   -- dim inactive window `:h hl-NormalNC`
             terminalColors = true, -- define vim.g.terminal_color_{0,17}
             colors = {             -- add/modify theme and palette colors
@@ -26,16 +26,18 @@ return {
             },
             overrides = function(colors) -- add/modify highlights
                 return {
-                    -- I prefer feint Comments to merge into background
+                    -- I prefer feinter Comments to merge into background
                     Comment = { fg = colors.palette.gray5 },
                 }
             end,
-            background = {          -- map the value of 'background' option to a theme
-                dark = "mist",      -- try "zen", "mist" or "pearl" !
-                light = "ink"       -- try "zen", "mist" or "pearl" !
+            background = {     -- map the value of 'background' option to a theme
+                dark = "mist", -- try "zen", "mist" or "pearl" !
+                light = "ink"  -- try "zen", "mist" or "pearl" !
             },
-            foreground = "default", -- "default" or "saturated"
-            --(can be a table like background)
+            foreground = {
+                dark = "default",
+                light = "saturated" -- "default" or "saturated"
+            },
         })
     end
 

@@ -1,4 +1,4 @@
--- LUALINE for git info, etc.
+-- LUALINE for git info, etc.tel
 
 return {
     "nvim-lualine/lualine.nvim",
@@ -7,7 +7,7 @@ return {
         require('lualine').setup {
             options = {
                 icons_enabled = true,
-                theme = 'auto',
+                theme = 'kanso',
                 component_separators = { left = '', right = '' },
                 section_separators = { left = '', right = '' },
                 disabled_filetypes = {
