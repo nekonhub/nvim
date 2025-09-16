@@ -13,8 +13,8 @@ return {
         require("oil").setup({
             columns = {
                 "icon",
-                -- "permissions",
-                -- "size"
+                "permissions",
+                "size"
             },
             keymaps = {
                 ["<CR>"] = "actions.select",
