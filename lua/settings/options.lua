@@ -36,7 +36,7 @@ vim.opt.smartindent = true -- matches indents for C language
 -- lukas-reineke/indent-blankline.nvim "just works" for me
 
 -- LINE WRAPPING
-vim.opt.wrap = true        -- default, see keymaps to move within wrapped line
+vim.opt.wrap = false       -- WRAP set to false because true breaks MARKVIEW
 vim.opt.linebreak = true   -- don't break words
 vim.opt.colorcolumn = "80" -- try to stay within 80 chars
 
