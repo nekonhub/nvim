@@ -1,6 +1,7 @@
 -- MARKVIEW.LUA
 -- Markdown rendering in markdown files
-
+-- Great defaults, prefer to adapt to defaults than pander to pretty,
+-- for me its just a place to keep notes, plans and ideas.
 return {
     {
         "OXY2DEV/markview.nvim",
@@ -13,8 +14,9 @@ return {
         },
     },
 
-    -- Preview MARKDOWN
+    -- Preview MARKDOWN in browser
     -- but also HTML, SVG, ASCII
+    -- For me its just a quick way to print "pretty" markdown.
     {
         'brianhuster/live-preview.nvim',
         dependencies = {
