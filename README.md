@@ -17,13 +17,23 @@ New config focused on function over form, native over plugin.
 
 Comments sufficient to avoid "why?" or "WTAF" in a year's time.
 
-I used to use Neorg for notes, ideas and TODOs, but switched to markdown, *standards based* format gives me portability. I don't use preview or render-markdown (which caused me link issues). Markview is well thought out and looks great. I keep things very minimal although I do intend to automate some actions like "create a new day file" or "list todo's that have a date".
+I used to use Neorg for notes, ideas and TODOs.
+Switched to markdown, *standards based* format hopefully gives me portability.
+Have started to use Preview as a simple means of printing.
+Markview is well thought out and looks great.
+I keep things very minimal.
+I do intend to automate some actions like "create a new day file" or "list todo's that have a date".
 
-I have recently switched to the [Kanso colorscheme](https://github.com/webhooked/kanso.nvim). In the Mist variant, it gives me really nice Markdown colours and keeps things subtle for coding. Whilst some people see signals in colours when coding, it *dazzles* me. Is there a kind of dyslexia for colour? There is probably a half decent PhD paper in "Colour Perception when coding".
+I have recently switched to the [Kanso colorscheme](https://github.com/webhooked/kanso.nvim).
+In the Mist variant, it gives me really nice Markdown colours and keeps things subtle for coding.
+Whilst some people see signals in colours when coding, it *dazzles* me.
+Is there a kind of dyslexia for colour?
+There is probably a half decent PhD paper in "Colour Perception when coding".
 
 ![Markview in Kanso-Mist colorscheme](assets/MarkdownInKanso-Mist.png)
 
-Kanso also works well in the Ink variant at night, and whilst I rarely use light colorschemes, Saturated Mode in the Pearl variant is a good option.
+Kanso also works well in the Ink variant at night.
+I rarely use light colorschemes, but Saturated Mode in the Pearl variant is a reasonable option.
 
 I use this [great markdown cheatsheet](https://github.com/im-luka/markdown-cheatsheet) for testing Markdown, it covers everything.
 
