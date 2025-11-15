@@ -2,8 +2,8 @@
 -- Dark and subtle, has Kanagawa advantages without color bling.
 -- I think most people see signals in code colours,
 -- but I just see distraction, it dazzles me.
--- Nord, or Kanso, its always the subtle that attracts me
--- No-Clown-Fiesta is another that I have used in the past
+-- Nord, or Kanso, its always the subtle colorschemes that attracts me.
+-- No-Clown-Fiesta is another that I have used in the past.
 
 return {
     "webhooked/kanso.nvim",
@@ -29,7 +29,6 @@ return {
             overrides = function(colors) -- add/modify highlights
                 return {
                     -- I prefer feinter Comments to merge into background
-                    -- and make code more distinct
                     Comment = { fg = colors.palette.gray5 },
                 }
             end,
