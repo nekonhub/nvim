@@ -12,6 +12,7 @@
 -- hidden = true (allows unsaved work in buffers)	
 -- wildmenu = true (list of options on <TAB> completions)
 -- lazyredraw = false (not required in Neovim??)
+-- equalsize = true => resize on open or close windows
 
 
 -- COLORSCHEME

@@ -24,6 +24,19 @@ Markview is well thought out and looks great.
 I keep things very minimal.
 I do intend to automate some actions like "create a new day file" or "list todo's that have a date".
 
+I love [Oil.nvim](https://github.com/stevearc/oil.nvim) for file actions.
+But I also like my file info to be a narrow vsplit on the left like Neotree and Nerdtree.
+The solution is to shift cursor to left-most window and vsplit with expicit 40 width.
+
+```lua
+vim.keymap.set("n", "<leader>vo", "<C-w><C-h><cmd>40vsplit<CR><cmd>Oil<CR>",
+    { desc = " Open Vsplit parent in Oil" }),
+```
+Still not found a way to "equalalways" the windows to the right.
+Neovim Docs describe this as "complicated" but I refuse to give up!
+![Oil in leftmost 40 character vsplit](assets/Oil-in-narrow-vsplit.png)
+
+
 I have recently switched to the [Kanso colorscheme](https://github.com/webhooked/kanso.nvim).
 In the Mist variant, it gives me really nice Markdown colours and keeps things subtle for coding.
 Whilst some people see signals in colours when coding, it *dazzles* me.
