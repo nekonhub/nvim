@@ -26,7 +26,7 @@ I do intend to automate some actions like "create a new day file" or "list todo'
 
 I love [Oil.nvim](https://github.com/stevearc/oil.nvim) for file actions.
 But I also like my file info to be a narrow vsplit on the left like Neotree and Nerdtree.
-The solution is to shift cursor to left-most window and vsplit with expicit 40 width.
+The solution is to shift cursor to left-most window and vsplit with explicit 40 width.
 
 ```lua
 vim.keymap.set("n", "<leader>vo", "<C-w><C-h><cmd>40vsplit<CR><cmd>Oil<CR>",
