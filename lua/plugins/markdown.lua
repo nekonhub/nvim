@@ -1,7 +1,7 @@
 -- MARKVIEW.LUA
 -- Markdown rendering in markdown files
 -- Great defaults, prefer to adapt to defaults than pander to pretty,
--- for me its just a place to keep notes, plans and ideas.
+-- its just a place to keep notes, plans and ideas, not a lifestyle choice!
 return {
     {
         "OXY2DEV/markview.nvim",
