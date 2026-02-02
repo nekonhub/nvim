@@ -67,7 +67,7 @@ vim.opt.showmatch = true
 -- SEARCH SETTINGS
 vim.opt.hlsearch = true   -- highlight search string
 vim.opt.incsearch = true  -- highlight as you are typing
---                              -- SEARCH HIGHLIGHTS OFF with <leader>h-o
+-- SEARCH HIGHLIGHTS OFF with <leader>h-o (see KEYMAPS.LUA)
 vim.opt.ignorecase = true -- ignore case of typing and search target
 vim.opt.smartcase = true  -- if search contains upper case override ignorecase
 

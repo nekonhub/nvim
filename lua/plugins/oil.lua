@@ -37,5 +37,5 @@ return {
         { desc = "Open parent in Oil float" }),
     -- vsplit (40 characters width) on left of open bufferss
     vim.keymap.set("n", "<leader>vo", "<C-w><C-h><cmd>40vsplit<CR><cmd>Oil<CR>",
-        { desc = " Open narrow Vsplit parent in Oil" }),
+        { desc = " Open 40 narrow Vsplit parent in Oil" }),
 }

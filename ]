@@ -32,9 +32,9 @@ return {
                     Comment = { fg = colors.palette.gray5 },
                 }
             end,
-            background = {    -- map the value of 'background' option to a theme
-                dark = "ink", -- try "zen", "mist" or "pearl" !
-                light = "ink" -- try "zen", "mist" or "pearl" !
+            background = {     -- map the value of 'background' option to a theme
+                dark = "mist", -- try "zen", "mist" or "pearl" !
+                light = "ink"  -- try "zen", "mist" or "pearl" !
             },
             foreground = {
                 dark = "default",

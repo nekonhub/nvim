@@ -51,6 +51,11 @@ return {
         -- MASON-LSPCONFIG handles auto attatch and config of individual LSPs
         -- Uses default LSPCONFIG settings
 
+        --CAPABILITIES
+        -- local capabilities = require('blink.cmp').get_lsp_capabilities()
+        -- vim.lsp.config('lua_ls', { capabilites = capabilities })
+        -- vim.lsp.enable('lua_ls')
+
         -- Auto format on "write"
         vim.api.nvim_create_autocmd('LspAttach', {
             callback = function(args)

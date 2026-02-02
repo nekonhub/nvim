@@ -30,7 +30,7 @@ The solution is to shift cursor to left-most window and vsplit with explicit 40 
 
 ```lua
 vim.keymap.set("n", "<leader>vo", "<C-w><C-h><cmd>40vsplit<CR><cmd>Oil<CR>",
-    { desc = " Open Vsplit parent in Oil" }),
+    { desc = " Open 40 narrow Vsplit parent in Oil" }),
 ```
 Still not found a way to "equalalways" the windows to the right.
 Neovim Docs describe this as "complicated" but I refuse to give up!
