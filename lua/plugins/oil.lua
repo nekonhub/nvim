@@ -36,6 +36,7 @@ return {
     vim.keymap.set("n", "<leader>fo", "<cmd>Oil --float<CR>",
         { desc = "Open parent in Oil float" }),
     -- vsplit (40 characters width) on left of open bufferss
+    -- TODO Need a way to "EQUALALWAYS" the windows to R of Oil window
     vim.keymap.set("n", "<leader>vo", "<C-w><C-h><cmd>40vsplit<CR><cmd>Oil<CR>",
         { desc = " Open 40 narrow Vsplit parent in Oil" }),
 }

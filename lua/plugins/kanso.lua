@@ -3,7 +3,7 @@
 -- I think most people see signals in code colours,
 -- but I just see distraction, it dazzles me.
 -- Nord, or Kanso, its always the subtle colorschemes that attracts me.
--- No-Clown-Fiesta is another that I have used in the past.
+-- No-Clown-Fiesta and Substrata are others that I have used in the past.
 
 return {
     "webhooked/kanso.nvim",

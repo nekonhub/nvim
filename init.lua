@@ -3,7 +3,7 @@
 -- An exercise in simplification
 -- Function > Form
 -- Native > Plugin
--- I don't like the UserName folder, simple,neat alternative
+-- I don't like the UserName folder. I use a  simple, neat alternative
 -- Uses ".lazy" (DOT LAZY) to remove the eponymous folder
 
 -- When switching to Lua based config, the best advice I can offer is "RTFM"
