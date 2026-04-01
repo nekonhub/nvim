@@ -1,4 +1,5 @@
 -- ROSE-PINE.LUA colorscheme
+-- soft purple but some colours jar, eg pink/salmon
 
 return {
     "rose-pine/neovim",

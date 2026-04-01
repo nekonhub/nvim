@@ -1,9 +1,7 @@
 -- KANSO.LUA - an nvim colorscheme based on Kanagawa
 -- Dark and subtle, has Kanagawa advantages without color bling.
 -- I think most people see signals in code colours,
--- but I just see distraction, it dazzles me.
--- Nord, or Kanso, its always the subtle colorschemes that attracts me.
--- No-Clown-Fiesta and Substrata are others that I have used in the past.
+-- but I just see distraction, bright colors dazzles me.
 
 return {
     "webhooked/kanso.nvim",
