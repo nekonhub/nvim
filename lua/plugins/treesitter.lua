@@ -18,7 +18,6 @@ return {
                     "lua",
                     "markdown",
                     "markdown_inline",
-                    "latex",
                     "vim",
                     "vimdoc",
                     "html",

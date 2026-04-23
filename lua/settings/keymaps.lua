@@ -40,7 +40,7 @@ vim.keymap.set("n", "<leader>d", "\"_d")
 vim.keymap.set("v", "<leader>d", "\"_d")
 -- When searching, keep search terms in the middle of page
 vim.keymap.set("n", "n", "nzzzv")
-vim.keymap.set("n", "n", "Nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
 
 -- THE "+" REGISTER
 -- Yank or Copy to the "Plus" register - (System Clipboard)
