@@ -5,7 +5,7 @@
 return {
     {
         "nvim-treesitter/nvim-treesitter",
-        dependencies = { "OXY2DEV/markview.nvim" },
+        -- dependencies = { "OXY2DEV/markview.nvim" },
         lazy = false,
         priority = 51, -- Tresitter needs to load before Markview!
         build = ":TSUpdate",

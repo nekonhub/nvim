@@ -27,7 +27,7 @@ return {
             overrides = function(colors) -- add/modify highlights
                 return {
                     -- I prefer feinter Comments to merge into background
-                    Comment = { fg = colors.palette.gray5 },
+                    Comment = { fg = colors.palette.inkBg3 },
                 }
             end,
             background = {    -- map the value of 'background' option to a theme
@@ -35,7 +35,7 @@ return {
                 light = "ink" -- try "zen", "mist" or "pearl" !
             },
             foreground = {
-                dark = "default",
+                dark = "default",   -- "default" or "saturated"
                 light = "saturated" -- "default" or "saturated"
             },
         })
